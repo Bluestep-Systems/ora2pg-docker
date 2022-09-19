@@ -1,7 +1,7 @@
 # ora2pg-docker
-Dockerfile based on https://github.com/darold/ora2pg
+Dockerfile for running **ora2pg** based on https://github.com/darold/ora2pg
 
-For documentation on running ora2pg see https://ora2pg.darold.net/
+For documentation on running **ora2pg** see https://ora2pg.darold.net/
 
 Running Examples:
 - Get the version: `docker run --rm -it caffeine01/ora2pg --version`
