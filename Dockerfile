@@ -46,7 +46,7 @@ ENV ORACLE_HOME=/usr/lib/oracle/$ORAVERSION/client64 \
 # Install Oracle DBD client
 RUN cpan install DBD::Oracle
 
-ARG ORA2PG_VERSION=v23.1
+ARG ORA2PG_VERSION=v23.2
 RUN git clone https://github.com/darold/ora2pg.git \
   && (cd ora2pg && git checkout $ORA2PG_VERSION && perl Makefile.PL && make && make install && rm -r ../ora2pg)
 
